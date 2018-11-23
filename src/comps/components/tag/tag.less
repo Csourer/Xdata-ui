@@ -1,0 +1,45 @@
+.xd__tag {
+    display: inline-block;
+    line-height: 1.2;
+    cursor: pointer;
+    color: rgb(31, 45, 61);
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    text-align: center;
+	white-space: nowrap;
+    font-size: 1.4rem;
+    margin: 0px;
+    border-radius: 12px;
+    padding: 3px 8px;
+
+
+
+    &.is-round{
+        border-radius: 200px;
+    }
+
+    &--default {
+        color: @btn-default-color;
+        background: @btn-default-bg;
+        border: @border-width-base @border-style-base @border-color-base; 
+    }
+
+    &--success {
+        color: @btn-success-color;
+        background: @btn-success-bg;
+        border: @border-width-base @border-style-base @btn-success-bg; 
+    }
+    &--warning {
+        color:  #fff;
+        background:  rgb(255,153,0);
+        border: @border-width-base @border-style-base;
+    }
+    &--error {
+        color:  #fff;
+        background:  rgb(237,63,20);
+        border: @border-width-base @border-style-base;
+    }
+
+
+
+}
