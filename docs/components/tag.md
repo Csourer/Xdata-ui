@@ -11,6 +11,13 @@
 <xd-tag bg-color="#fc0" color="#e0439a" border-color="#fc0">自定义颜色</xd-tag>
 ```
 
+<xd-tag>普通</xd-tag>
+<xd-tag type="primary">primary</xd-tag>
+<xd-tag type="success">success</xd-tag>
+<xd-tag type="warning" closable>warning</xd-tag>
+<xd-tag type="error" round>error</xd-tag>
+<xd-tag bg-color="#fc0" color="#e0439a" border-color="#fc0">自定义颜色</xd-tag>
+
 ### 属性
 | 参数      | 说明    | 类型      | 可选值       | 默认值   |
 |---------- |-------- |---------- |-------------  |-------- |
