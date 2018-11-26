@@ -29,12 +29,6 @@ import Xdata from 'xdata-ui'
 Vue.use(Xdata)
 ```
 
-> 按需引入 -- 在 入口文件 main.js 或 组件内 中如下配置：
-
-``` bash
-# 全局组件 main.js引入
-import Toast from 'xdata-ui/package/comps/components/toast'
-Vue.prototype.$toast = Toast
 
 # 一般组件
 import xdataTag from 'xdata-ui/package/comps/components/tag'
@@ -48,7 +42,7 @@ components: {
 
 ## 查看示例  
 
-[在线示例](https://monw3c.github.io/xmui/dist/)  
+[在线示例](https://csourer.github.io/dist/#/)  
 
 
 ## 组件列表
@@ -56,7 +50,3 @@ components: {
 - [x] 标签
 
 
-## 贡献
-
-在此不一一感谢所有付出脑力体力的同仁，如有疑问，请与我们联系  
-如果你在使用时遇到问题，或者有好的建议，欢迎给我们提 [Issue](https://github.com/monw3c/xmui/issues) 或 [Pull Request](https://github.com/monw3c/xmui/pulls)
