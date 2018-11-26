@@ -30,23 +30,20 @@ Vue.use(Xdata)
 ```
 
 
+> 按需引入 -- 在 入口文件 main.js 或 组件内 中如下配置：
+``` bash
 # 一般组件
 import xdataTag from 'xdata-ui/package/comps/components/tag'
 ...
-
 components: {
     xdataTag
     ...
 }
 ``` 
-
 ## 查看示例  
-
 [在线示例](https://csourer.github.io/dist/#/)  
-
-
 ## 组件列表
-
 - [x] 标签
+
 
 
