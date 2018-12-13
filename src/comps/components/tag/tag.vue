@@ -7,8 +7,6 @@
         {'is-round': round}
         ]"
     >
-        <span><slot></slot></span>
-        <i class="xd__icon--close xd__tag--close" v-if="closable" @click="closeAction"></i>
     </div>
 </template>
 
@@ -33,16 +31,9 @@ export default {
       type: String,
       default: ''
     },
-    round: Boolean,
-    closable: {
-      type: Boolean,
-      default: false
-    }
+    round: Boolean
   },
   methods: {
-    closeAction () {
-      this.$emit('close')
-    }
   }
 }
 </script>

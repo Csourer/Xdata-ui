@@ -17,34 +17,7 @@
 export default {
   data () {
     return {
-      msg: `xdata-ui - 基于vue2.x，可复用UI组件`,
-      value: '',
-      value1: '',
-      value2: '',
-      value3: '',
-      inputValue: '',
-      modalVisible1: false,
-      modalVisible2: false,
-      modalVisible3: false,
-      zIndex: 3000,
-      stepList: ['发起工单', '主管审批', '经理审批', '总监核查', '结束'],
-      step: 2,
-      tag1: true,
-      switch1: true,
-      switch2: false,
-      curSelected: '3',
-      inputVal: '',
-      textareaVal: '',
-      selectVal: '',
-      switchVal: true,
-      radio: '巴士',
-      checkbox: ['1', '4'],
-      hrefObj: { path: '/mall', params: { userId: 123 } },
-      actionSheetVisible1: false,
-      actionSheetVisible2: false,
-      popupVisible1: false,
-      popupVisible2: false,
-      active: '/mall'
+      msg: `xdata-ui - 基于vue2.x，可复用UI组件`
     }
   },
   methods: {
@@ -86,27 +59,6 @@ h2{
   text-indent: 10px;
   margin-top: 30px;
   margin-bottom: 0;
-}
-.btn__group{
-  border: 1px solid #eee;
-  padding: 10px;
-  position: relative;
-  margin: 0 20px;
-}
-.btn__group::before{
-  content: '按钮组';
-  font-size:12px;
-  position: absolute;
-  top: -6px;
-  right: -20px;
-  background: #fff;
-  color: #aaa;
-}
-.btn__block{
-  margin: 0 auto!important;
-}
-.wrap > .xd__btn,.xd__tag{
-  margin-bottom: 10px;
 }
 
 </style>
